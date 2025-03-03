@@ -53,7 +53,7 @@ def Xform "Root"
             asset inputs:file = @Screenshot Shrek.png@
             color3f outputs:out
             float2 ui:nodegraph:node:pos = (43.679688, 56.164062)
-            int ui:nodegraph:node:stackingOrder = 895
+            int ui:nodegraph:node:stackingOrder = 909
         }
 
         def Shader "GeometryModifier"
@@ -91,7 +91,7 @@ def Xform "Root"
             string inputs:vaddressmode
             float outputs:out
             float2 ui:nodegraph:node:pos = (-194.35547, 445.9922)
-            int ui:nodegraph:node:stackingOrder = 896
+            int ui:nodegraph:node:stackingOrder = 908
         }
     }
 
