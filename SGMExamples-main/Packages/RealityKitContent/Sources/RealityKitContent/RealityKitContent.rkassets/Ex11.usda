@@ -65,8 +65,8 @@ def Xform "Root"
             float3 inputs:normal.connect = None
             float2 inputs:uv0
             token outputs:out
-            float2 ui:nodegraph:node:pos = (345.41797, 361.28516)
-            int ui:nodegraph:node:stackingOrder = 900
+            float2 ui:nodegraph:node:pos = (491.2985, 356.72122)
+            int ui:nodegraph:node:stackingOrder = 913
             string[] ui:nodegraph:realitykit:node:attributesShowingChildren = []
         }
 
@@ -74,10 +74,11 @@ def Xform "Root"
         {
             uniform token info:id = "ND_multiply_vector3"
             float3 inputs:in1.connect = </Root/MaterialEx11/Combine3.outputs:out>
+            float3 inputs:in2 = (1, 0.1, 1)
             float3 inputs:in2.connect = None
             float3 outputs:out
-            float2 ui:nodegraph:node:pos = (163.25267, 290.90283)
-            int ui:nodegraph:node:stackingOrder = 856
+            float2 ui:nodegraph:node:pos = (284.84573, 289.86923)
+            int ui:nodegraph:node:stackingOrder = 925
             string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["outputs:out"]
         }
 
